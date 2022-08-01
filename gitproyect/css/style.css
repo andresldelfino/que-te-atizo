@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Splash&display=swap');
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Splash', cursive;
+*/
+
+header{
+    width: 100%;
+    background: rgba(162,123,92,0.4);
+    box-shadow: 0 8px 32px 0 rgba(120,129,122,0.4);
+    backdrop-filter: blur( 6px);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.18);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+
+
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.navBar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navBar li{
+    list-style: none;
+}
+
+.navBar li a{
+    text-decoration: none;
+    font-size: 40px;
+    color: blue;
+}
+
+.navBar li a:hover{
+    color:white
+}
